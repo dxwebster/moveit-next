@@ -28,7 +28,6 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   const minutos = Math.floor(time/60);
   const seconds = time % 60;
 
-
   // Disparar os minutos quando clicar no botão
   function startCountdown(){
     setIsActive(true);
