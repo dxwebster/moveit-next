@@ -14,24 +14,24 @@
   </a>
 </p> -->
 
-<h1 align="center">
-    <!-- <img src="./assets/logo-full.svg" /> -->
-</h1>
+<!-- <h1 align="center">
+    <img src="./assets/logo-full.svg" />
+</h1> -->
 
-<h4 align="center"> 
-	🚧  Aplicação finalizada! 🚧
+<h4> 
+	🚧  Readme em construção 🚧
 </h4>
 
 ## 🏁 Tópicos
 
 <p>
- 👉<a href="#-sobre-o-projeto" style="text-decoration: none; "> Sobre</a> <br/>
-👉<a href="#-funcionalidades" style="text-decoration: none; "> Funcionalidades</a> <br/>
-👉<a href="#-layout" style="text-decoration: none"> Layout</a> <br/>
-👉<a href="#-como-executar-o-projeto" style="text-decoration: none"> Como executar</a> <br/>
-👉<a href="#-tecnologias" style="text-decoration: none"> Tecnologias</a> <br/>
-👉<a href="#-autor" style="text-decoration: none"> Autor</a> <br/>
-👉<a href="#user-content--licença" style="text-decoration: none"> Licença</a>
+<a href="#-sobre-o-projeto" style="text-decoration: none; "> Sobre</a> <br/>
+<a href="#-funcionalidades" style="text-decoration: none; "> Funcionalidades</a> <br/>
+<a href="#-layout" style="text-decoration: none"> Layout</a> <br/>
+<a href="#-como-executar-o-projeto" style="text-decoration: none"> Como executar</a> <br/>
+<a href="#-tecnologias" style="text-decoration: none"> Tecnologias</a> <br/>
+<a href="#-autor" style="text-decoration: none"> Autor</a> <br/>
+<a href="#user-content--licença" style="text-decoration: none"> Licença</a>
 
 </p>
 
@@ -62,12 +62,12 @@ Abaixo disponibilizei um link para o site hospedado:
   - [x] Os dados do usuário são salvos em cookies;
   - [x] Alternância entre tema claro e escuro.
 
-### A milha extra...
+<!-- ### A milha extra...
 
 - [x] Troca de temas da interface, na qual o tema é salvo dentro de um cookie;
 - [x] A troca de temas é feita pela propriedade data-theme da tag html;
 - [x] Foi criado uma Side Bar;
-- [x] A aplicação está responsiva.
+- [x] A aplicação está responsiva. -->
 
 ---
 
@@ -169,7 +169,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 📝 Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
-
 Feito com :satisfied: por [Adriana Lima](https://www.linkedin.com/in/dxwebster/)
 
 ---
