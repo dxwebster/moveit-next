@@ -57,12 +57,10 @@ export const ChallengeNotActive = styled.div`
     margin-top: 3rem;
   }
 
-  p img{
-    margin-bottom: 1rem;
-  }
+
 `
 
-export const ChallengeActive = styled.div`
+export const Challenge = styled.div`
   height: 100%;
 
   display: flex;
@@ -73,7 +71,7 @@ export const ChallengeActive = styled.div`
     color: var(--blue);
     font-weight: 600;
     font-size: 1.2rem;
-    padding:0 2rem 1.5rem;
+    padding: 0 2rem 1.5rem;
     border-bottom: 1px solid var(--gray-line);
   }
 
@@ -83,53 +81,58 @@ export const ChallengeActive = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 1rem 0;
+
+    strong {
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--title);
+      margin: 1.5rem 0 1rem;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    img {
+      margin-bottom: 1rem;
+    }
   }
 
-  main strong{
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--title);
-    margin: 1.5rem 0 1rem;
-  }
-
-  main p{
-    line-height: 1.5;
-  }
-
-  footer{
+  footer  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-  }
 
-  footer button{
-    height: 3rem;
+    button  {
+      height: 3rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-    border: 0;
-    outline: 0;
-    border-radius: 5px;
+      border: 0;
+      outline: 0;
+      border-radius: 5px;
 
-    color: var(--white);
+      color: var(--white);
 
-    font-size: 1rem;
-    font-weight: 600;
-    transition: filter 0.2s;
-  }
+      font-size: 1rem;
+      font-weight: 600;
+      transition: filter 0.2s;
 
-  footer button.challengeFailedButton{
-    background: var(--red);
-  }
+      &:first-child{
+        background: var(--red);
+      }
 
-  footer button.challengeSuceedButton{
-    background: var(--green);
-  }
+      &:last-child{
+        background: var(--green);
+      }
 
-  footer button:hover {
-    filter:brightness(0.9);
+      &:hover {
+        filter:brightness(0.9);
+      }
+    }
   }
 `
 
