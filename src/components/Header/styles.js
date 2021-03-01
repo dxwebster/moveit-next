@@ -4,21 +4,32 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: var(--blue);
   color: #fff;
+  box-shadow: 0px 2px 7px 0 rgb(147 163 255);
+
+
+`
+export const Logo = styled.div` 
+  margin-right: 1rem;
+  
+  img {
+    width: 80%;
+  }
 `
 
 export const XPBar = styled.div`
-  width: 70%;
+  width: 60%;
   display: flex;
   align-items: center;
   font-size: 1rem;
+  margin-right: 1rem;
 
 
   & > div {
-    flex:1;
-    height: 4px;
+    flex: 1;
+    height: 10px;
     border-radius: 4px;
     background: var(--gray-line);
     margin: 0 1.5rem;
@@ -26,7 +37,7 @@ export const XPBar = styled.div`
   }
 
   .percentualBar {
-    height: 4px;
+    height: 10px;
     border-radius: 4px;
     background: var(--green);
    
@@ -35,7 +46,7 @@ export const XPBar = styled.div`
   .XP {
     width: 30px;
     height: 30px;
-    margin-top: -17px;
+    margin-top: -20px;
 
     display: flex;
     align-items: center;
@@ -70,8 +81,8 @@ export const Profile = styled.div`
   }
 
   img.profile {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     margin-right: 1rem;
   }

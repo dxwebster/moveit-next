@@ -5,28 +5,33 @@ export const Header = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  margin: 1rem 0 2.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px  solid #d7d8da;
+  padding: 1rem;
+  border-bottom: 3px  solid var(--green);
 
+  background: var(--blue);
   font-weight: 500;
+  color: var(--white);
 
-  span :first-child{
-    font-size: 1.25rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  position: relative;
+
+  span:first-child{
+    font-size: 1rem;
   }
 
-  span :last-child{
-    font-size: 1.5rem;
+  span:last-child{
+    font-size: 2rem;
+    position: absolute;
+    right: 10px;
   }
 `
 
-
-
-
 export const Container = styled.div`
-  height: 80%;
   background: var(--white);
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
   padding: 1.5rem 2rem;
 `
