@@ -3,8 +3,7 @@ import { GetServerSideProps } from 'next';
 
 import { ChallengeBox } from "../components/ChallengeBox";
 import { Countdown } from "../components/Countdown";
-import { ExperienceBar } from "../components/ExperienceBar";
-import { Profile } from '../components/Profile';
+import { Header } from "../components/Header";
 
 import { Container, Grid } from './styles'
 
@@ -25,17 +24,16 @@ export default function Home(props: HomeProps) {
       challengesCompleted={props.challengesCompleted}
       
       >
+      <Header />
+      
       <Container>
         <Head>
           <title> Inicio | move.it </title>
         </Head>
-        
-        <ExperienceBar />
 
         <CountdownProvider>
           <Grid>
             <div>
-              <Profile />
               <Countdown />
             </div>
             <div>
