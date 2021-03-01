@@ -25,7 +25,6 @@ interface ChallengesProviderProps {
   level: number;
   currentExperience: number;
   challengesCompleted: number;
-  theme: string;
 }
 
 // createContext({} as ChallengesContextData) = valor inicial do contexto segue o formato da interface

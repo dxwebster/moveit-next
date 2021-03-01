@@ -4,6 +4,7 @@
   font-family: Rajdhani;
   font-family: 600;
   color: var(--title);
+  margin-top: 50px;
 }
 
 .countdownContainer > div {
