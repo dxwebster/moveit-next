@@ -66,24 +66,29 @@ export const Profile = styled.div`
   align-items: center;
   margin-left: 1.5rem;
 
-  p {
-    font-size: 1rem;
-    margin-right: 1rem;
-
-    img {
-      margin-right: 0.5rem;
-    }
-  }
-
   strong {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
   }
 
   img.profile {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     margin-right: 1rem;
+  }
+
+  svg {
+    width: 12px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+`
+
+export const Level = styled.div`
+  font-size: 1rem;
+
+  img {
+    margin-right: 0.5rem;
   }
 `

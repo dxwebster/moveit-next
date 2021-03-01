@@ -15,13 +15,6 @@ export const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
-  margin: 20px 0;
+  margin: 100px 0;
 
-
-  @media(max-width: 720px){
-    section {
-      grid-template-columns: 1fr ;
-    
-    }
-  }
 `

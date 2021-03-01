@@ -1,6 +1,8 @@
 import { useContext } from 'react';
 import { ChallengesContext } from '../../contexts/challenges'
-import { Container, XPBar, Profile, Logo } from './styles'
+import { Container, XPBar, Profile, Logo, Level } from './styles'
+
+import SvgArrow from  '../../../public/icons/SvgArrowDown'
 
 export function Header(){
   const { currentExperience, experienceToNextLevel } = useContext(ChallengesContext)
@@ -25,10 +27,12 @@ export function Header(){
         <span>{experienceToNextLevel} xp</span>
       </XPBar>
 
+      <Level><img src="icons/level.svg" alt="level"/>Level { level }</Level>
+
       <Profile>
-        <p><img src="icons/level.svg" alt="level"/>Level { level }</p>
         <img className="profile" src="https://github.com/dxwebster.png" alt="imagem do user"/>
-        <strong>Adriana Shikasho</strong>
+        <strong>Adriana Lima</strong>
+        <SvgArrow />
       </Profile>
     </Container>
   )
