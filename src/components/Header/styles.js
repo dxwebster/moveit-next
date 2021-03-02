@@ -12,19 +12,18 @@ export const Container = styled.div`
 
 `
 export const Logo = styled.div` 
-  margin-right: 1rem;
+  width: 15%;
   
   img {
-    width: 80%;
+    width: 100%;
   }
 `
 
 export const XPBar = styled.div`
-  width: 60%;
+  width: 55%;
   display: flex;
   align-items: center;
   font-size: 1rem;
-  margin-right: 1rem;
 
 
   & > div {
@@ -64,7 +63,6 @@ export const XPBar = styled.div`
 export const Profile = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 1.5rem;
 
   strong {
     font-size: 0.8rem;
